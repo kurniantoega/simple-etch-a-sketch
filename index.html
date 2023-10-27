@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Etch a Sketch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Etch a Sketch</h1>
+  <div class="container">
+    <div class="set-grid-container">
+      <label for="slider">Set Grid Size</label>
+      <input type="range" min="2" max="100" step="1" id="slider" value="16">
+      <p id="slider-text-value"></p>
+      <button id="clear-button">Clear</button>
+      <button id="reset-button">RESET ALL</button>
+    </div>
+    <div class="square-container"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
